@@ -1,14 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import classNames from 'classnames';
+
+import styles from './button.css';
 
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'primary' : 'secondary';
   const sizeProps = size ? size : 'medium';
+
   return (
     <button
       type="button"
-      className={[ 'button', sizeProps, mode].join(' ')}
+      className={classNames(styles[mode], styles[sizeProps], styles.button)}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
