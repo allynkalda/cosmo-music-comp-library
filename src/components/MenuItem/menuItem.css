@@ -1,0 +1,5 @@
+.menuItem {
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+}
