@@ -1,6 +1,6 @@
 {
   "name": "cosmo-music-component-library",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
