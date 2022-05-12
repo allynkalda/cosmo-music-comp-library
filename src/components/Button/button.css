@@ -28,11 +28,11 @@
   color: #fff;
 }
 .small {
-  font-size: 13px;
-  padding: 8px 32px;
+  font-size: 12px;
+  padding: 7px 32px;
 }
 .medium {
-  padding: 14px 32px;
+  padding: 12px 32px;
   font-size: 13px;
 }
 .large {
