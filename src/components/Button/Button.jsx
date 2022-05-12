@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './button.css';
 
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'primary' : 'secondary';
   const sizeProps = size ? size : 'medium';
   return (
@@ -46,3 +46,5 @@ Button.defaultProps = {
   size: 'medium',
   onClick: undefined,
 };
+
+export default Button;
