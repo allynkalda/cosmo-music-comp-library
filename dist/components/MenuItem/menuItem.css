@@ -1,0 +1,8 @@
+.menuItem {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}

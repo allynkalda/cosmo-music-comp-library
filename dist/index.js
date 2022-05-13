@@ -9,5 +9,13 @@ Object.defineProperty(exports, "Button", {
     return _Button.Button;
   }
 });
+Object.defineProperty(exports, "MenuItem", {
+  enumerable: true,
+  get: function get() {
+    return _MenuItem.MenuItem;
+  }
+});
 
 var _Button = require("./components/Button/Button");
+
+var _MenuItem = require("./components/MenuItem/MenuItem");

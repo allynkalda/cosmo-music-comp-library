@@ -24,9 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rimraf dist",
-    "compile": "npm run clean && cross-env NODE_ENV=production babel src/ --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "compile": "npm run clean && cross-env NODE_ENV=production babel src/ --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
   },
   "eslintConfig": {
     "extends": [
